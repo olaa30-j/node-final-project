@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+nav{
+    padding: 30px 0;
+    position: relative;
+}
+
+.input-group
+{
+
+    margin-top: 30px;
+}
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__content > h2{
+    font-size: 40px;
+    color: #525252;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right h2{
+    margin-right: 50px;
+}
+.right h2 a{
+    color: #525252;
+}
+.right > a{
+    width: 120px;
+    display: inline-block;
+    height: 40px;
+    color: #525252;
+    border: 1px solid #525252;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.blog__content{
+    display: flex;
+}
+.left__side__blogs{
+    width: 90%;
+    position: relative;
+    min-height: 87.5vh;
+}
+
+.search{
+    padding: 40px 0; 
+    position: relative;
+}
+.search::after{
+    position: absolute;
+    width: 90%;
+    content: "";
+    height: 1px;
+    left: 0;
+    bottom: 8px;
+    background-color: #5252522c;
+}
+.add{
+    width: 30%;
+}
+.search input{
+    width: 40%;
+    height: 45px;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #5252522c;
+}
+.blog__blogs{
+    padding: 25px 0;
+}
+.blog__blogs h3{
+    font-size: 25px;
+    color: #525252;
+}
+.article{
+    display: flex;
+    padding: 80px 100px 80px 0;
+    align-items: center;
+    position: relative;
+}
+.article::after{
+    position: absolute;
+    top: 50px;
+    height: 1px;
+    width: 90%;
+    left: 0;
+    background-color: #5252522c;
+    content: "";
+}
+.modal{
+    position: absolute;
+    height: 60px;
+}
+.article__text{
+    padding-right: 80px;
+    width: 75%;
+}
+.article__text .info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.article__text .info i{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #5252522c;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.article__text .info h4{
+    font-size: 22px;
+    color: #525252;
+    margin-right: 20px;
+}
+.article__text .info h5{
+    font-size: 12px;
+    color: #828282;
+    margin-top: 4px;
+}
+.article__text h2{
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+.article__text p{
+    font-size: 18px;
+    color: #2e2e2eaa;
+    margin-bottom: 15px;
+}
+.article__text .tags a{
+    width: 110px;
+    height: 30px;
+    background-color: #F6F6F6;
+    color: #acacac;
+    border: 1px solid #5252522c;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 12px;
+}
+.image{
+    width: 25%;
+}
+.image img{
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.add{
+    padding: 50px;
+}
+.add h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #525252;
+}
+.add input{
+ 
+    outline: none;
+    width: 400px;
+    margin-bottom: 15px;
+    height: 50px;
+    padding: 0 10px;
+}
+.add textarea{
+    
+    outline: none;
+    resize: none;
+    margin-bottom: 15px;
+    width: 400px;
+    height: 200px;
+    padding: 5px 10px;
+}
+.add input:nth-of-type(2){
+    height: 200px;
+}
+.add label{
+    font-size: 18px;
+    color: #525252;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.tags-input-wrapper{
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    width: 400px;
+    border: 1px solid #4F4F4F;
+}
+.tags-input-wrapper input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 140px;
+    margin-left: 8px;
+}
+.tags-input-wrapper .tag{
+    display: inline-block;
+    background-color: #5252522c;
+    color: #525252;
+    border-radius: 40px;
+    padding: 0px 3px 0px 7px;
+    margin-right: 5px;
+    margin-bottom:5px;
+    box-shadow: 0 5px 15px -2px rgba(28, 17, 22, 0.7)
+}
+.tags-input-wrapper .tag a {
+    margin: 0 7px 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+.add h4{
+    margin-top: 60px;
+    
+    font-size: 18px;
+    color: #525252;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.none{
+    display: none;
+}
+.add input:last-of-type{
+    margin-top: 20px;
+}
+.add label:last-of-type{
+    width: 60px;
+    height: 60px;
+    background-color: #2e2e2eaa;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

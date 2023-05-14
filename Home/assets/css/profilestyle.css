@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+nav{
+    padding: 30px 0;
+    position: relative;
+}
+nav::after{
+    position: absolute;
+    width: 100%;
+    content: "";
+    height: 1px;
+    left: 0;
+    bottom: -10px;
+    background-color: #5252522c;
+}
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__content > h2{
+    font-size: 40px;
+    color: #525252;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right h2{
+    margin-right: 50px;
+}
+.right a{
+    width: 120px;
+    display: inline-block;
+    height: 40px;
+    color: #525252;
+    border: 1px solid #525252;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.blog__blogs{
+    padding: 25px 0;
+    align-items: center;
+
+}
+
+.blog__blogs h3{
+    font-size: 25px;
+    color: #525252;
+}
+.article{
+    display: flex;
+    padding: 80px 100px 80px 0;
+    align-items: center;
+    position: relative;
+}
+.article::after{
+    position: absolute;
+    top: 50px;
+    height: 1px;
+    width: 90%;
+    left: 0;
+    background-color: #5252522c;
+    content: "";
+}
+
+.article:first-child:after{
+    display: none;
+}
+.article__text{
+    padding-right: 80px;
+    width: 75%;
+}
+.article__text .info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.article__text .info i{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #5252522c;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.article__text .info h4{
+    font-size: 22px;
+    color: #525252;
+    margin-right: 20px;
+}
+.article__text .info h5{
+    font-size: 12px;
+    color: #828282;
+    margin-top: 4px;
+}
+.article__text h2{
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+.article__text p{
+    font-size: 18px;
+    color: #2e2e2eaa;
+    margin-bottom: 15px;
+}
+.article__text .tags a{
+    width: 80px;
+    height: 30px;
+    background-color: #F6F6F6;
+    color: #acacac;
+    border: 1px solid #5252522c;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 12px;
+}
+.image{
+    width: 25%;
+}
+.image img{
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 25px;
+}
